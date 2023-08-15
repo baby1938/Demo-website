@@ -1,0 +1,469 @@
+*{
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border:none;
+    text-transform:capitalize;
+    transition: all .2s linear;
+  }
+
+  html{
+    height: 100%;
+  }
+  
+
+body{
+    font-family: 'Poopins', sans-serif;
+    min-height: 100%;
+    
+    
+}
+
+html::-webkit-scrollbar{
+    width: 1.4rem;
+    }
+    html::-webkit-scrollbar-track{
+    background: brown;
+    }
+    html::-webkit-scrollbar-thumb{
+    background: white;
+    }
+    
+
+
+
+
+
+
+.heading{
+    text-align: center;
+    margin:0 6rem;
+    font-size: 4rem;
+    padding:1rem;
+    border-bottom: .1rem solid #fff4;
+    color: brown;
+    }
+    
+    .heading span{
+    color:black;
+    }
+    
+
+.header {
+    width:100%;
+    height: 550px;
+    
+    background-image:url("file:///media/fuse/crostini_b2be6e8ec46cbf2b09b7f14b8a2d2d38727ec828_termina_penguin/Mereja/vector-image-world-wide-web-satellites-in-orbit-transmit-a-signal-to-the-planets-surface.jpeg");
+     -webkit-clip-path: ellipse(71% 59% at 50% 40%);
+    clip-path: ellipse(71% 59% at 50% 40%);
+        padding: 2rem;
+        display: fixed;
+}
+
+.header .header-text
+{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    max-height: 40%;
+    padding: 1rem;
+    }
+
+.header .header-text h4{
+    font-weight: 600;
+    color: white;
+    font-size: 35px;
+    margin: 10px;
+    padding: 1rem;
+}
+
+.header .header-text p{
+    font-weight: 400;
+    color: white;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 0px;
+}
+
+
+header{
+    position: fixed;
+     width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 15px 100px;
+ }
+.logo img{
+        width: 400px;
+        height: 200px;
+}
+
+.navbar{
+    display: flex;
+
+}
+
+
+#menu{
+    width: 35px;
+    position: absolute;
+    right: 80px;
+    top: 40px;
+    width: 100%;
+     height: 2px;
+     background-color: black;
+     margin-bottom: 8px;
+     display: none;
+
+    }
+
+
+.image{
+    border-width:10px;
+    border-style: solid;
+    border-color: blue;
+}
+
+
+
+
+
+
+.navbar li{
+    position: relative;
+}
+
+.navbar a{
+    font-size: 3rem;
+    padding: 10px 20px;
+    color: black;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+
+
+.navbar a::after{
+    content: "";
+    width:0;
+    height: 3px;
+    background: yellow;
+    position:absolute;
+    bottom: -4px;
+    left:0;
+    transition: 0.5s;
+}
+
+.navbar a:hover::after{
+    width: 100%
+}
+
+
+ .content1{
+   flex: 1 1 45rem;
+   padding: 2rem;
+   display: center;
+   position:absolute;
+   top: 76%;
+   left: 55%;
+   transform: translate(-50%,-50%);
+   text-align: center;
+   max-height: 40%;
+   
+   
+}
+
+.content .h3{
+    margin: 10px;
+    padding: 1rem;
+    font-weight: 600;
+}
+
+
+
+
+.btn{
+    
+    display: inline-block;
+    padding: .3rem 1rem;
+    font-size: 1rem;
+    color: #fff;
+    background: silver;
+    cursor:pointer;
+    text-decoration: none;
+    
+}
+
+
+.headr-text2 img{
+    padding: 2rem;
+}
+.services{
+background: brown;
+}
+
+.main-text{
+    text-align:center;
+}
+.main-text h4{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.services-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, auto));
+    align-items: center;
+    text-align: center;
+    gap: 2.9rem;
+    margin-top: 1rem;
+}
+
+.box{
+    padding: 40px;
+    background: rgb(51, 48, 48);
+    border-top: 5px solid transparent;
+    border-radius: 0.5rem;
+    transition: all .40s ease;
+    cursor: pointer;
+}
+
+
+.box h3{
+
+font-size: 24px;
+font-weight: 600;
+margin: 15px 0;
+transition: all .40s ease;
+}
+
+.box p{
+    color:black;
+     line-height: 30px;
+}
+
+.box:hover{
+    background:blue;
+    transform: scale(1.01) translateY(-5px);
+    border-top: 5px solid black;
+    
+}
+
+
+.contact {
+    height: 100vh;
+    background: linear-gradient(
+        to right,
+        silver 0%,
+        silver 100%
+        );
+        
+}
+form{
+    flex:1 1 45rem;
+    padding: 2rem;
+    margin: 2rem;
+    margin-bottom: 4rem;
+    }
+    
+    form .box{
+    padding: 1.5rem;
+    margin: 1rem 0;
+    background: white;
+    color: black;
+    text-transform: none;
+    font-size: 1.7rem;
+    width: 100%;
+    }
+    
+    
+    form .box::placeholder{
+    text-transform: capitalize;
+    }
+    
+    
+    
+    
+    form .message{
+    height: 15rem;
+    resize: none;
+    }
+    
+
+
+
+
+
+.contact .footer{
+    margin-top: auto;
+    top: -100;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: url(file:///media/fuse/crostini_b2be6e8ec46cbf2b09b7f14b8a2d2d38727ec828_termina_penguin/Mereja/footer-wave.png);
+    color: #fff;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    height: 200px;
+    padding-top: 14%;
+    padding-bottom: 30%;
+    display: inline-block;
+    margin-top: auto;
+    size: 1rem;
+    
+}
+
+.footer .cotainer{
+    background-color: black;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+
+.footer-col ul{
+    list-style: none;
+}
+
+.footer-col h4{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 22px;
+    position: relative;
+    font-family: 'ubuntu', sans-serif;
+}
+
+.footer-col h4::before{
+    content: '';
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    background-color: black;
+    bottom: -10px;
+}
+
+.footer-col ul li{
+    padding: 10px 0;
+}
+.footer-col ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footer-col ul li a:hover{
+    opacity: 1;
+}
+
+.footer-col input{
+    border: none;
+    width: 250px;
+    height: 45px;
+    display: block;
+    padding-left: 20px;
+    margin: 14px 0;
+}
+.footer-col button{
+    background: red;
+}
+
+
+.col p{
+    color: black;
+    
+}
+
+.row hr{
+    opacity: 0.7;
+}
+
+.row .col p{
+opacity: 0.7;
+text-transform: uppercase;
+}
+
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a:hover{
+    color:brown;
+}
+
+
+
+
+
+
+
+
+/* media queries*/
+@media (max-width:1200px){
+    html{
+      font-size: 50%;
+    }
+   }
+      
+   @media (max-width:991px){
+     header{
+       left: -120%;
+     }
+     #menu{
+       display: block;
+       font-size: 50px;
+     }
+     
+     body{
+       padding: 0;
+       margin: 0;
+     }
+    }
+   
+   
+   
+   
+   @media (max-width:768px){
+     html{
+       font-size: 30%;
+     }
+     
+   }
+   
+   
+   @media (max-width:400px){
+   header{
+     width:100vw;
+   
+   }
+}
+   
+   .heading{
+   margin: 0 3rem;
+   }
+   /*
+   .about .row .counter .box {
+     width: 100%;
+   }
+   
+   
+   }
+   
+   
